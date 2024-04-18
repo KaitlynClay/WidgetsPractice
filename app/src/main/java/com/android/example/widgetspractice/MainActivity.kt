@@ -39,10 +39,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import com.google.android.material.snackbar.Snackbar
-import com.raywenderlich.android.coffeelogs.CoffeeLoggerPersistence
-import com.raywenderlich.android.coffeelogs.CoffeeLoggerWidget
-import com.raywenderlich.android.coffeelogs.CoffeeTypes
-import com.raywenderlich.android.coffeelogs.Constants
+
 
 class MainActivity : AppCompatActivity() {
 
