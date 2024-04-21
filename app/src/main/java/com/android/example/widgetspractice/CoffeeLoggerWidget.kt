@@ -60,7 +60,7 @@ class CoffeeLoggerWidget : AppWidgetProvider() {
             val intent = Intent(context, MainActivity::class.java)
             intent.action = Constants.ADD_COFFEE_INTENT
             intent.putExtra(Constants.GRAMS_EXTRA, value)
-            return PendingIntent.getActivity(context, value, intent, 0)
+            return PendingIntent.getActivity(context, value, intent, PendingIntent.FLAG_IMMUTABLE)
         }
 
         private fun getRandomQuote(context: Context): String {

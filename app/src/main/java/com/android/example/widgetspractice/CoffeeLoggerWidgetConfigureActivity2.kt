@@ -8,7 +8,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 
-class CoffeeLoggerWidgetConfigureActivity : AppCompatActivity() {
+class CoffeeLoggerWidgetConfigureActivity2 : AppCompatActivity() {
 
     private lateinit var appWidgetText: EditText
     private var appWidgetId = AppWidgetManager.INVALID_APPWIDGET_ID
