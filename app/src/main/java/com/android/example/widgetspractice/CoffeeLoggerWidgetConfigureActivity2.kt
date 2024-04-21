@@ -22,14 +22,14 @@ class CoffeeLoggerWidgetConfigureActivity2 : AppCompatActivity() {
 
         //1
         appWidgetText = findViewById(R.id.appwidget_text)
-//2
+    //2
         val extras = intent.extras
-//3
+    //3
         if (extras != null) {
             appWidgetId = extras.getInt(
                 AppWidgetManager.EXTRA_APPWIDGET_ID, AppWidgetManager.INVALID_APPWIDGET_ID)
         }
-//4
+    //4
         setResult(Activity.RESULT_CANCELED)
 
     }
